@@ -60,7 +60,7 @@ $(function () {
             // 将登录成功后获得的token字符串保存到localstorage里（token用于一些需要权限的接口调用）
             localStorage.setItem('token',res.token)
             // 跳转后台主页
-            // location.href='/index.html'
+            location.href='/index.html'
         })
     })
 })
