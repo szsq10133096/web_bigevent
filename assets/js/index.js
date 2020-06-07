@@ -14,6 +14,7 @@ $(function () {
           });
         
     })
+
 })
 // 声明一个获取用户基本信息函数
 function getuserInfo() {
@@ -65,4 +66,7 @@ function renderAvatar(user) {
         var first = name[0].toUpperCase()
         $('.text-avatar').html(first).show()
     }
+
+   
 }
+
